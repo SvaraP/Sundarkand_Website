@@ -1,0 +1,50 @@
+.tittle {
+    text-align: center;
+    background-color: #8c0e0f;
+    padding: 2%;
+    color: #e89c31; /* Gold color */
+    -webkit-text-stroke: 1px #8B0000; /* Dark red outline */
+    text-shadow: 2px 2px 0 #8B0000; /* Dark red shadow for better visibility */
+    font-size: 2em; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+    border-radius: 15px;
+
+}
+
+body {
+    background-color: #F3D7A4; /* Light gray background color */
+    margin: 2%;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+  }
+
+.bubble-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e89c31; /* Gold color */
+    color: #8B0000; /* Dark red color */
+    font-size: 16px;
+    /* text-decoration: none; */
+    border: 2px solid #8B0000; /* Dark red border */
+    border-radius: 30px; /* Rounded corners to create bubble effect */
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  }
+  
+  .bubble-link:hover {
+    background-color: #8B0000; /* Dark red background on hover */
+    color: #FFD700; /* Gold text on hover */
+    transform: scale(1.1); /* Slightly enlarge the bubble on hover */
+  }
+
+  #linkinheader {
+    color: #8c0e0f;
+    font-size: 25px;
+    text-align: center;
+
+  }
+  
+  .pdf {
+    text-align: center;
+    padding: 0.5%;
+  }
