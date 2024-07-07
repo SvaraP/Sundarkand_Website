@@ -76,9 +76,68 @@ body {
     }
   }
 
-image{
-  max-width: 100%;
+/* Responsive Image */
+.image-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.responsive-image {
+  width: 100%;
   height: auto;
   display: block;
+  border-radius: 30px;
+}
+
+.schedule{
+  text-align: center;
+}
+
+
+
+.itinerary {
+  max-width: 600px;
   margin: 0 auto;
+  background-color: #e89c31;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 2px solid #8B0000;
+}
+
+.day {
+  margin-bottom: 20px;
+}
+
+.day-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #8B0000; /* Light pink color */
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.events {
+  border-left: 3px solid #8B0000; /* Light pink border */
+  padding-left: 15px;
+}
+
+
+
+.event {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.time {
+  font-weight: bold;
+  width: 100px;
+  flex-shrink: 0;
+  color: #333333;
+}
+
+.description {
+  color: #333333;
+  line-height: 1.5;
 }
