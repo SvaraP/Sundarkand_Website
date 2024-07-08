@@ -162,3 +162,71 @@ body {
 .fontlol{
   font-size: 80px;
 }
+
+@media (max-width: 768px) {
+  .tittle {
+      font-size: 1.5em; /* Adjust font size for smaller screens */
+  }
+
+  .bubble-link {
+      font-size: 1.2em; /* Adjust font size for smaller screens */
+  }
+
+  .des {
+      font-size: 1.5em; /* Adjust font size for smaller screens */
+  }
+
+  .day-title {
+      font-size: 2.5em; /* Adjust font size for smaller screens */
+  }
+
+  .it-title {
+      font-size: 1.5em; /* Adjust font size for smaller screens */
+  }
+
+  .time {
+      font-size: 1em; /* Adjust font size for smaller screens */
+  }
+
+  .description {
+      font-size: 1.2em; /* Adjust font size for smaller screens */
+  }
+
+  .fontlol {
+      font-size: 3em; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .tittle {
+      font-size: 1.2em; /* Adjust font size for even smaller screens */
+  }
+
+  .bubble-link {
+      font-size: 1em; /* Adjust font size for even smaller screens */
+  }
+
+  .des {
+      font-size: 1.2em; /* Adjust font size for even smaller screens */
+  }
+
+  .day-title {
+      font-size: 2em; /* Adjust font size for even smaller screens */
+  }
+
+  .it-title {
+      font-size: 1.2em; /* Adjust font size for even smaller screens */
+  }
+
+  .time {
+      font-size: 0.8em; /* Adjust font size for even smaller screens */
+  }
+
+  .description {
+      font-size: 1em; /* Adjust font size for even smaller screens */
+  }
+
+  .fontlol {
+      font-size: 2.5em; /* Adjust font size for even smaller screens */
+  }
+}
