@@ -155,7 +155,7 @@ body {
 .des {
   color: black;
   line-height: 1.5;
-  font-size: 35px;
+  font-size: 80px;
   word-wrap: normal;
 }
 
@@ -165,15 +165,15 @@ body {
 
 @media (max-width: 768px) {
   .tittle {
-      font-size: 1.5em; /* Adjust font size for smaller screens */
+      font-size: 2.5em; /* Adjust font size for smaller screens */
   }
 
   .bubble-link {
-      font-size: 1.2em; /* Adjust font size for smaller screens */
+      font-size: 1.4em; /* Adjust font size for smaller screens */
   }
 
   .des {
-      font-size: 1.5em; /* Adjust font size for smaller screens */
+      font-size: 2.3em; /* Adjust font size for smaller screens */
   }
 
   .day-title {
@@ -185,11 +185,11 @@ body {
   }
 
   .time {
-      font-size: 1em; /* Adjust font size for smaller screens */
+      font-size: 1.2em; /* Adjust font size for smaller screens */
   }
 
   .description {
-      font-size: 1.2em; /* Adjust font size for smaller screens */
+      font-size: 1.4em; /* Adjust font size for smaller screens */
   }
 
   .fontlol {
@@ -203,7 +203,7 @@ body {
   }
 
   .bubble-link {
-      font-size: 1em; /* Adjust font size for even smaller screens */
+      font-size: 1.5em; /* Adjust font size for even smaller screens */
   }
 
   .des {
