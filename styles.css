@@ -215,15 +215,15 @@ body {
   }
 
   .it-title {
-      font-size: 1.2em; /* Adjust font size for even smaller screens */
+      font-size: 1.4em; /* Adjust font size for even smaller screens */
   }
 
   .time {
-      font-size: 0.8em; /* Adjust font size for even smaller screens */
+      font-size: 1.2em; /* Adjust font size for even smaller screens */
   }
 
   .description {
-      font-size: 1em; /* Adjust font size for even smaller screens */
+      font-size: 1.2em; /* Adjust font size for even smaller screens */
   }
 
   .fontlol {
