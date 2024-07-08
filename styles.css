@@ -24,7 +24,7 @@ body {
     padding: 10px 20px;
     background-color: #e89c31; /* Gold color */
     color: #8B0000; /* Dark red color */
-    font-size: 16px;
+    font-size: 25px;
     /* text-decoration: none; */
     border: 2px solid #8B0000; /* Dark red border */
     border-radius: 30px; /* Rounded corners to create bubble effect */
@@ -111,7 +111,7 @@ body {
 }
 
 .day-title {
-  font-size: 24px;
+  font-size: 45px;
   font-weight: bold;
   color: #8B0000; /* Light pink color */
   margin-bottom: 10px;
@@ -123,6 +123,13 @@ body {
   padding-left: 15px;
 }
 
+.it-title{
+  font-size: 30px;
+  font-weight: bold;
+  color: #8B0000; /* Light pink color */
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
 
 
 .event {
