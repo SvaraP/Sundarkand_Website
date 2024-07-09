@@ -132,8 +132,15 @@ body {
 
 .lol{
   color: #8B0000;
-  font-weight:;
+  font-weight:bold;
 }
+
+.lol1{
+  color: #8B0000;
+  font-weight:bold;
+  font-size: 2em;
+}
+
 .des {
   color: black;
   line-height: 1.5;
