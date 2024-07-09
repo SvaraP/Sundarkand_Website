@@ -53,8 +53,9 @@ body {
 /* Responsive Image */
 .image-container {
   width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 800px; */
+  
+  
 }
 
 .responsive-image {
@@ -62,6 +63,7 @@ body {
   height: auto;
   display: block;
   border-radius: 30px;
+  
 }
 
 
@@ -138,13 +140,13 @@ body {
 .lol1{
   color: #8B0000;
   font-weight:bold;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .des {
   color: black;
   line-height: 1.5;
-  font-size: 1.5em;
+  font-size: 2em;
   word-wrap: normal;
 }
 
@@ -154,7 +156,7 @@ body {
 }
 
 .with{
-  font-size: small;
+  font-size: 1.5em;
 }
 
 .schedule {
