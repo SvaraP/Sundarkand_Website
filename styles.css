@@ -128,6 +128,12 @@ body {
   word-wrap: normal;
 }
 
+
+
+.lol{
+  color: #8B0000;
+  font-weight:;
+}
 .des {
   color: black;
   line-height: 1.5;
@@ -136,18 +142,12 @@ body {
 }
 
 .fontlol{
-  font-size: 42px;
-  
+  font-size: 80px;
+
 }
 
 .with{
-  font-size: 32px;;
-}
-
-.lol{
-  color: #8B0000;
-  font-weight: bolder;
-  font-size: 42px;
+  font-size: small;
 }
 
 .schedule {
