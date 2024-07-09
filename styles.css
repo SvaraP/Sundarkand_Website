@@ -49,33 +49,7 @@ body {
     padding: 0.5%;
   }
 
-  @media (max-width: 480px) {
-    header {
-      padding: 15px;
-    }
-  
-    nav {
-      text-align: center;
-    }
-  
-    nav a {
-      display: block;
-      margin: 5px 0;
-    }
-  
-    main {
-      padding: 5px;
-    }
-  
-    section {
-      margin: 5px 0;
-    }
-  
-    footer {
-      padding: 5px;
-    }
-  }
-
+ 
 /* Responsive Image */
 .image-container {
   width: 100%;
@@ -90,20 +64,21 @@ body {
   border-radius: 30px;
 }
 
-.schedule{
-  text-align: center;
-}
+
 
 
 
 .itinerary {
-  max-width: 600px;
+  width: 100%;
+  height: fit-content;
   margin: 0 auto;
   background-color: #e89c31;
-  padding: 20px;
+  padding: 5px;
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border: 2px solid #8B0000;
+  align-items: center;
+  
 }
 
 .day {
@@ -135,6 +110,7 @@ body {
 .event {
   display: flex;
   margin-bottom: 10px;
+  
 }
 
 .time {
@@ -142,7 +118,7 @@ body {
   width: 100px;
   flex-shrink: 0;
   color: #333333;
-  font-size: 20px;
+  font-size: ;
 }
 
 .description {
@@ -155,78 +131,72 @@ body {
 .des {
   color: black;
   line-height: 1.5;
-  font-size: 80px;
+  font-size: 1.5em;
   word-wrap: normal;
 }
 
 .fontlol{
   font-size: 80px;
+  
 }
 
-@media (max-width: 768px) {
-  .tittle {
-      font-size: 2.5em; /* Adjust font size for smaller screens */
-  }
-
-  .bubble-link {
-      font-size: 1.4em; /* Adjust font size for smaller screens */
-  }
-
-  .des {
-      font-size: 2.3em; /* Adjust font size for smaller screens */
-  }
-
-  .day-title {
-      font-size: 2.5em; /* Adjust font size for smaller screens */
-  }
-
-  .it-title {
-      font-size: 1.5em; /* Adjust font size for smaller screens */
-  }
-
-  .time {
-      font-size: 1.2em; /* Adjust font size for smaller screens */
-  }
-
-  .description {
-      font-size: 1.6em; /* Adjust font size for smaller screens */
-  }
-
-  .fontlol {
-      font-size: 3em; /* Adjust font size for smaller screens */
-  }
+.with{
+  font-size: small;
 }
 
-@media (max-width: 480px) {
-  .tittle {
-      font-size: 1.2em; /* Adjust font size for even smaller screens */
-  }
+.lol{
+  color: #8B0000;
+  font-weight: bolder;
+  font-size: 2.5em;
+}
 
-  .bubble-link {
-      font-size: 1.5em; /* Adjust font size for even smaller screens */
-  }
+.schedule {
+  max-width: 100%;
+  background-color: #FFF5E1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 2px solid #8B0000;
+}
 
-  .des {
-      font-size: 1.2em; /* Adjust font size for even smaller screens */
-  }
+.schedule h2 {
+  text-align: center;
+  color: #8B0000;
+  margin-bottom: 20px;
+}
 
-  .day-title {
-      font-size: 2em; /* Adjust font size for even smaller screens */
-  }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
 
-  .it-title {
-      font-size: 1.4em; /* Adjust font size for even smaller screens */
-  }
+thead {
+  background-color: #8B0000;
+  color: #ffffff;
+}
 
-  .time {
-      font-size: 1.2em; /* Adjust font size for even smaller screens */
-  }
+th, td {
+  padding: 10px 15px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+  font-size: 1.75em;
+}
 
-  .description {
-      font-size: 1.6em; /* Adjust font size for even smaller screens */
-  }
+tbody tr:nth-child(even) {
+  background-color: #F2D5A8;
+}
 
-  .fontlol {
-      font-size: 2.5em; /* Adjust font size for even smaller screens */
-  }
+tbody tr:hover {
+  background-color: #F1C27D;
+}
+
+td:first-child {
+  width: 150px;
+  font-weight: bold;
+  color: #8B0000;
+}
+
+td {
+  vertical-align: top;
 }
