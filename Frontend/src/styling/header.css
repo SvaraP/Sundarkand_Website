@@ -1,0 +1,187 @@
+.navbar {
+  display: flex;
+  position: fixed;
+  top: 0; /* Fix it to the top */
+  left: 0; /* Ensure it aligns with the left edge */
+  right: 0;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(0, #401f0f, #83171b);
+  width: 100vw;
+  z-index: 500;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 0 20px;
+  height: 70px; /* Adjust the height as needed */
+}
+
+.logo {
+  fill: #f5f2dc;
+}
+
+.link-container {
+  display: flex;
+  color: white;
+  margin-right: 50px;
+}
+
+.nav-link {
+  border: none;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 16pt;
+}
+
+.nav-link.active {
+  color: #ac746c;
+}
+
+.nav-link.active-solutions {
+  color: white;
+}
+
+.dropdown:hover .dropdown-toggle {
+  color: #ac746c;
+}
+
+#link1:hover,
+#link2:hover,
+#link3:hover,
+#link4:hover,
+#link5:hover {
+  color: #ac7462;
+}
+
+.dropdown-toggle {
+  color: white;
+  background-color: transparent;
+  border: none;
+  font-size: 16pt;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.dropdown-menu {
+  display: none;
+  border: none;
+  width: 300px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  white-space: normal;
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+  text-decoration: none;
+  border: none;
+}
+
+.dropdown-toggle:active {
+  color: white;
+}
+
+.Denali-Logo {
+  margin: 10px 0px 10px 75px;
+}
+
+.Denali-Logo:hover {
+  cursor: pointer;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  color: white;
+  font-size: 30pt;
+  margin-right: 50px;
+  z-index: 1000;
+  position: relative;
+  transition: transform 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.menu-icon div {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: all 0.5s ease;
+}
+
+.menu-icon.open div:nth-child(1) {
+  transform: rotate(45deg) translate(7px, 7px);
+}
+
+.menu-icon.open div:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-icon.open div:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+.mobile-dropdown-menu {
+  width: 100vw;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 20px;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-image: linear-gradient(0, #401f0f, #83171b);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  z-index: 1001;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+.mobile-dropdown-menu .nav-link:hover {
+  color: #AC746c;
+}
+
+@media (max-width: 800px) {
+  .Denali-Logo {
+    margin: 15px 0px 15px 20px;
+    height: 47px;
+  }
+  .link-container {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    font-size: 23pt;
+  }
+
+  .mobile-dropdown-menu {
+    margin-top: 70px;
+    background-image: linear-gradient(0, #83171b , #401f0f);
+  }
+
+  .nav-link {
+    font-size: 14pt;
+  }
+
+  .dropdown-menu {
+    display: none;
+    position: static;
+  }
+  .dropdown:hover .dropdown-toggle {
+    cursor: pointer;
+  }
+
+  .dropdown.open .dropdown-menu {
+    display: block;
+  }
+
+  .navbar {
+    background-image: linear-gradient(0, #401f0f, #83171b);
+  }
+}

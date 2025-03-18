@@ -1,0 +1,48 @@
+/* HomePage.css */
+.homepage-container {
+    min-height: 100vh;
+    /* background-color: #f5e2d6; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem; /* Tailwind's p-6 */
+  }
+  
+  .homepage-title {
+    font-size: 3rem; /* Tailwind's text-4xl */
+    font-weight: 800; /* Tailwind's font-bold */
+    color: #1a202c; /* Tailwind's gray-900 */
+    margin-bottom: 1rem; /* Tailwind's mb-4 */
+    letter-spacing: 0.5rem; /* Tailwind's tracking-wide */
+  }
+  
+  .homepage-paragraph {
+    font-size: 1.125rem; /* Tailwind's text-lg */
+    color: #4a5568; /* Tailwind's gray-700 */
+    max-width: 40rem; /* Tailwind's max-w-2xl */
+    text-align: center;
+    margin-bottom: 1.5rem; /* Added margin-bottom */
+    line-height: 1.75rem; /* Tailwind's leading-relaxed */
+  }
+  
+  .homepage-button-container {
+    margin-top: 1.5rem; /* Tailwind's mt-6 */
+  }
+  
+  .homepage-button {
+    padding: 0.5rem 1.5rem; /* Tailwind's px-6 py-2 */
+    background-color: #3182ce; /* Tailwind's bg-blue-600 */
+    color: white;
+    border-radius: 0.5rem; /* Tailwind's rounded-lg */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Tailwind's shadow-md */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .homepage-button:hover {
+    background-color: #2b6cb0; /* Tailwind's hover:bg-blue-700 */
+  }
+
+  
+  
