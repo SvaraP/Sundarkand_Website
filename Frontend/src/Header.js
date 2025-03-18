@@ -80,39 +80,25 @@ function Header({ onLinkClick = () => {} }) {
       </div>
       <div ref={dropdownRef} className={`mobile-dropdown-menu ${isDropdownOpen ? 'open' : ''}`}>
         <Link
-          to="/#HomeMainSection"
-          className={`nav-link ${location.hash === '#HomeMainSection' || location.pathname === '/' ? 'active' : ''}`}
+          to="/"
+          className={`nav-link ${location.pathname === '/HomePage' ? 'active' : ''}`}
           onClick={() => { closeDropdowns(); onLinkClick(); }}
         >
           Home
         </Link>
         <Link
-          to="/SolutionsHome"
-          className={`nav-link ${location.pathname === '/SolutionsHome' ? 'active' : ''}`}
+          to="/About"
+          className={`nav-link ${location.pathname === '/About' ? 'active' : ''}`}
           onClick={() => { closeDropdowns(); onLinkClick(); }}
         >
-          Solutions
-        </Link>
-        <Link
-          to="/AboutUs"
-          className={`nav-link ${location.pathname === '/AboutUs' ? 'active' : ''}`}
-          onClick={() => { closeDropdowns(); onLinkClick(); }}
-        >
-          About Us
-        </Link>
-        <Link
-          to="/CareerOpportunities"
-          className={`nav-link ${location.pathname === '/CareerOpportunities' ? 'active' : ''}`}
-          onClick={() => { closeDropdowns(); onLinkClick(); }}
-        >
-          Careers
+          About Ashwin Pathak
         </Link>
         <Link
           to="/Contact"
           className={`nav-link ${location.pathname === '/Contact' ? 'active' : ''}`}
           onClick={() => { closeDropdowns(); onLinkClick(); }}
         >
-          Contact
+          LLM
         </Link>
       </div>
     </div>

@@ -1,0 +1,120 @@
+/* About.css */
+
+/* Container for the About page */
+.about-container {
+    margin-top: 88px; /* Space to avoid the navbar overlap */
+    padding: 20px;
+  }
+  
+  .tittle-name {
+    font-size: 40px;
+    font-weight: bold;
+    color: #401f0f;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', sans-serif;
+  }
+  
+  .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align text and image side by side */
+    gap: 20px; /* Adds some space between image and text */
+  }
+  
+  .image-container {
+    flex: 1; /* Makes the image take up some space */
+  }
+  
+  .about-image {
+    width: 100%; /* Makes the image responsive */
+    max-width: 300px; /* Maximum width for the image */
+    height: auto; /* Keeps the aspect ratio of the image */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  }
+  
+  .text-container {
+    flex: 2; /* Allows the text container to take up more space on the right */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .bio-text {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+  }
+
+  .tittle-community {
+    font-size: 25px;
+    font-weight: bold;
+    color: #401f0f;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', sans-serif;
+  }
+
+  .community-image {
+    width: 100%; /* Makes the image responsive */
+    max-width: 800px; /* Maximum width for the image */
+    height: auto; /* Keeps the aspect ratio of the image */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    display: block; /* Ensures the image is treated as a block-level element */
+    margin-left: auto; /* Centers the image horizontally */
+    margin-right: auto; /* Centers the image horizontally */
+}
+
+.comm-text {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  .link-button {
+    display: inline; /* Makes the button width fit the content */
+    background-color: #401f0f; /* Dark background color */
+    color: white; /* White text */
+    font-size: 18px;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+    max-width: fit-content;
+  }
+
+  .button-container {
+    text-align: center; /* Center the button inside the parent container */
+  }
+  
+  .link-button:hover {
+    background-color: #6a3e2b; /* Lighter color on hover */
+  }
+  
+  /* Media Query for Smaller Screens */
+  @media (max-width: 768px) {
+    .content-container {
+      flex-direction: column; /* Stacks the content vertically */
+      align-items: center; /* Centers the content */
+      text-align: center; /* Centers text */
+    }
+  
+    .image-container {
+      margin-bottom: 20px; /* Adds space between the image and text when stacked */
+    }
+  
+    .about-image {
+      max-width: 80%; /* Adjusts image width for smaller screens */
+    }
+  
+    .bio-text {
+      font-size: 16px; /* Slightly smaller font size for better readability on small screens */
+    }
+
+  }
+  
