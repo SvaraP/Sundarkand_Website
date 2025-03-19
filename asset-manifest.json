@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sundarkand_Website/static/css/main.7f717228.css",
-    "main.js": "/Sundarkand_Website/static/js/main.466b3e87.js",
+    "main.css": "/Sundarkand_Website/static/css/main.a76aa166.css",
+    "main.js": "/Sundarkand_Website/static/js/main.d88d77fc.js",
     "static/media/lotus.png": "/Sundarkand_Website/static/media/lotus.2bea4b19c7087dd0fecf.png",
     "static/media/Jay-shree.jpg": "/Sundarkand_Website/static/media/Jay-shree.fa0ce7c5965950e33c9c.jpg",
     "static/media/SundarkandGujarati.pdf": "/Sundarkand_Website/static/media/SundarkandGujarati.710ceedeaf78c0fb4a7d.pdf",
@@ -12,11 +12,11 @@
     "static/media/Ashwin-Pathak.jpg": "/Sundarkand_Website/static/media/Ashwin-Pathak.cae9519af956aa9497fa.jpg",
     "static/media/lotus.jpg": "/Sundarkand_Website/static/media/lotus.36b3346fb458f9c3c5a6.jpg",
     "index.html": "/Sundarkand_Website/index.html",
-    "main.7f717228.css.map": "/Sundarkand_Website/static/css/main.7f717228.css.map",
-    "main.466b3e87.js.map": "/Sundarkand_Website/static/js/main.466b3e87.js.map"
+    "main.a76aa166.css.map": "/Sundarkand_Website/static/css/main.a76aa166.css.map",
+    "main.d88d77fc.js.map": "/Sundarkand_Website/static/js/main.d88d77fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.7f717228.css",
-    "static/js/main.466b3e87.js"
+    "static/css/main.a76aa166.css",
+    "static/js/main.d88d77fc.js"
   ]
 }
