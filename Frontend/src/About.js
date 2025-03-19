@@ -1,10 +1,31 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../src/styling/About.css";
 import NavBar from "./Header.js";
 import profile from '../src/images/Ashwin-Pathak.jpg';
 import comm from '../src/images/Jay-shree.jpg';
+import Footer from "./Footer.js";
 
 const About = () => {
+    const [isAtBottom, setIsAtBottom] = useState(false);
+
+    // Function to check if we're at the bottom of the page
+    const checkIfBottom = () => {
+      const scrollPosition = window.innerHeight + window.scrollY;
+      const pageHeight = document.documentElement.scrollHeight;
+      if (scrollPosition >= pageHeight) {
+        setIsAtBottom(true);
+      } else {
+        setIsAtBottom(false);
+      }
+    };
+  
+    // Listen for scroll events
+    useEffect(() => {
+      window.addEventListener("scroll", checkIfBottom);
+      return () => {
+        window.removeEventListener("scroll", checkIfBottom); // Cleanup the event listener
+      };
+    }, []);
   return (
     <>
       <div className="container">
@@ -42,6 +63,9 @@ const About = () => {
             </a>
             </div>
         </div>
+      </div>
+      <div>
+      {isAtBottom && <Footer />}
       </div>
     </>
   );
