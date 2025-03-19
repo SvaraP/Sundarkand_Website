@@ -1,12 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './HomePage.js';  // Import HomePage component
-import { BrowserRouter as Router } from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom/client";  // ✅ Correct for React 18+
+import { BrowserRouter } from "react-router-dom";
+import App from "./App";  
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <Router>  {/* Wrap everything in Router */}
-    <App />  {/* Your HomePage component */}
-  </Router>
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
 );
