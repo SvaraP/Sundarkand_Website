@@ -81,7 +81,7 @@ function Header({ onLinkClick = () => {} }) {
       <div ref={dropdownRef} className={`mobile-dropdown-menu ${isDropdownOpen ? 'open' : ''}`}>
         <Link
           to="/"
-          className={`nav-link ${location.pathname === '/HomePage' ? 'active' : ''}`}
+          className={`nav-link ${location.pathname === '/' ? 'active' : ''}`}
           onClick={() => { closeDropdowns(); onLinkClick(); }}
         >
           Home
