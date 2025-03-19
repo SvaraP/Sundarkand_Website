@@ -61,14 +61,6 @@ function Header({ onLinkClick = () => {} }) {
         >
           About Ashwin Pathak
         </Link>
-        <Link
-          to="/Contact"
-          id="link5"
-          className={`nav-link ${location.pathname === '/Contact' ? 'active' : ''}`}
-          onClick={onLinkClick}
-        >
-          LLM
-        </Link>
       </div>
       <div
         className={`menu-icon ${isDropdownOpen ? 'open' : ''}`}
@@ -92,13 +84,6 @@ function Header({ onLinkClick = () => {} }) {
           onClick={() => { closeDropdowns(); onLinkClick(); }}
         >
           About Ashwin Pathak
-        </Link>
-        <Link
-          to="/Contact"
-          className={`nav-link ${location.pathname === '/Contact' ? 'active' : ''}`}
-          onClick={() => { closeDropdowns(); onLinkClick(); }}
-        >
-          LLM
         </Link>
       </div>
     </div>
