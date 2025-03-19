@@ -1,0 +1,222 @@
+.home-container {
+  margin-top: 40px; /* Space to avoid the navbar overlap */
+  padding: 20px;
+  margin-bottom: 80px;
+}
+
+.home-name {
+  font-size: 40px;
+  font-weight: bolder;
+  color: #83171b;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', sans-serif;
+}
+
+.text_colour{
+  color: #83171b;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.back-section {
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  position: relative;
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center; /* Keeps the image centered */
+  background-repeat: no-repeat; /* Prevents image repetition */
+  background-image: url("../images/lotus.jpg"); /* Ensure path is correct */
+  margin: 0; /* Remove any margin to avoid unwanted white space */
+  padding: 0; /* Remove any padding */
+}
+
+.back-content {
+  background: rgba(220,191,128, 0.8); /* Optional: dark overlay for readability */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.title-name-home {
+  font-size: 50px;
+  font-weight: bolder;
+  color: #83171b;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', sans-serif;
+}
+
+.hcontent-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Aligns children to the top */
+  gap: 40px;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.himage-container {
+  flex: 1; /* Makes the image take up some space */
+}
+
+.htext-container {
+  flex: 2; /* Allows the text container to take up more space on the right */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column; /* Stacks the content vertically */
+    align-items: center; /* Centers the content */
+    text-align: center; /* Centers text */
+  }
+
+  .image-container {
+    margin-bottom: 20px; /* Adds space between the image and text when stacked */
+  }
+
+  .about-image {
+    max-width: 80%; /* Adjusts image width for smaller screens */
+  }
+
+  .bio-text {
+    font-size: 16px; /* Slightly smaller font size for better readability on small screens */
+  }
+}
+
+.home-schedule-container {
+  flex: 1;
+  max-width: 400px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Makes sure inner elements align properly */
+  justify-content: space-between; /* Ensures both containers fill the height */
+}
+
+.home-schedule-header {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #83171b;
+
+}
+
+.home-schedule-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px 10px 10px;  /* Top, Right, Bottom, Left */
+  position: relative;
+  margin: left;
+}
+
+.home-schedule-item:last-child {
+  border-bottom: none;
+}
+
+.home-schedule-time {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #401f0f;
+}
+
+
+.home-schedule-event {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.home-schedule-item:hover {
+  background-color: #f0e5e5;
+}
+
+.home-schedule-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.home-schedule-container td {
+  padding: 12px 16px;
+  position: relative;
+}
+
+.home-schedule-container tr td::after {
+  content: "";
+  position: absolute;
+  left: 15%;  /* Adjust these values to shorten the line */
+  right: 15%; /* The higher the percentage, the shorter the line */
+  bottom: 0;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.home-schedule-container tr:last-child td::after {
+  display: none; /* Removes the line from the last row */
+}
+
+.home-link-container {
+  flex: 1; /* Makes both sections take up equal space */
+  max-width: 400px; /* Ensures they don't stretch too much */
+  background: #f9f9f9; /* Light background for better contrast */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centers text content */
+}
+
+.home-link-container h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #83171b;
+  margin-bottom: 20px;
+}
+
+.home-link-container ul {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.home-link-container li {
+  margin-bottom: 10px;
+}
+
+.home-link-container a {
+  display: block;
+  margin-bottom: 10px;
+  padding: 12px;
+  background-image: linear-gradient(0, #401f0f, #83171b);
+  color: white; /* Darker text color */
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 3);
+}
+
+.home-link-container a:hover {
+  background-color: #83171b;
+  transform: translateY(-3px);
+}
+
+.home-link-header{
+  font-size: 2rem;
+  font-weight: bold;
+  color: #83171b;
+
+}
