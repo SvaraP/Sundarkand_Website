@@ -59,7 +59,7 @@ const About = () => {
               rel="noopener noreferrer" 
               className="link-button"
             >
-              Visit Jay Shree Ram Sundarkand Parivar Website
+              Visit Sundarkand Parivar Website
             </a>
             </div>
         </div>
