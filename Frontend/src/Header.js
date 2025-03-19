@@ -98,7 +98,7 @@ function Header({ onLinkClick = () => {} }) {
           className={`nav-link ${location.pathname === '/Contact' ? 'active' : ''}`}
           onClick={() => { closeDropdowns(); onLinkClick(); }}
         >
-          LLM
+          History
         </Link>
       </div>
     </div>
