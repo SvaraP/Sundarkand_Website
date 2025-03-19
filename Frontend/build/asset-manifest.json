@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e2a60627.css",
+    "main.js": "/static/js/main.17aa34ad.js",
+    "static/media/lotus.png": "/static/media/lotus.2bea4b19c7087dd0fecf.png",
+    "static/media/Jay-shree.jpg": "/static/media/Jay-shree.fa0ce7c5965950e33c9c.jpg",
+    "static/media/SundarkandGujarati.pdf": "/static/media/SundarkandGujarati.710ceedeaf78c0fb4a7d.pdf",
+    "static/media/hindi.pdf": "/static/media/hindi.6062421017b974f3a7d4.pdf",
+    "static/media/english.pdf": "/static/media/english.6560e18e4f0b7b5a5877.pdf",
+    "static/media/hanuman.jpg": "/static/media/hanuman.507f0260919f760ddcdc.jpg",
+    "static/media/invite.jpeg": "/static/media/invite.ba32e489d61ddb9fb0ec.jpeg",
+    "static/media/Ashwin-Pathak.jpg": "/static/media/Ashwin-Pathak.cae9519af956aa9497fa.jpg",
+    "static/media/lotus.jpg": "/static/media/lotus.36b3346fb458f9c3c5a6.jpg",
+    "index.html": "/index.html",
+    "main.e2a60627.css.map": "/static/css/main.e2a60627.css.map",
+    "main.17aa34ad.js.map": "/static/js/main.17aa34ad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2a60627.css",
+    "static/js/main.17aa34ad.js"
+  ]
+}
