@@ -23,7 +23,7 @@ const Home = () => {
     { time: "6:30 PM", event: "Dinner" },
     { time: "7:30 PM", event: "Path Begins" },
     { time: "8:30 PM", event: "Question Period" },
-    { time: "9:00 PM", event: "Goodbyes" }
+    { time: "10:00 PM", event: "Goodbyes" }
   ]; 
 
   return (
