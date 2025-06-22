@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Sundarkand_Website/static/css/main.3bb92f42.css",
-    "main.js": "/Sundarkand_Website/static/js/main.b8868ff1.js",
-    "static/media/lotus.png": "/Sundarkand_Website/static/media/lotus.2bea4b19c7087dd0fecf.png",
-    "static/media/Jay-shree.jpg": "/Sundarkand_Website/static/media/Jay-shree.fa0ce7c5965950e33c9c.jpg",
-    "static/media/SundarkandGujarati.pdf": "/Sundarkand_Website/static/media/SundarkandGujarati.710ceedeaf78c0fb4a7d.pdf",
-    "static/media/hindi.pdf": "/Sundarkand_Website/static/media/hindi.6062421017b974f3a7d4.pdf",
-    "static/media/english.pdf": "/Sundarkand_Website/static/media/english.6560e18e4f0b7b5a5877.pdf",
-    "static/media/hanuman.jpg": "/Sundarkand_Website/static/media/hanuman.507f0260919f760ddcdc.jpg",
-    "static/media/invite.jpeg": "/Sundarkand_Website/static/media/invite.ba32e489d61ddb9fb0ec.jpeg",
-    "static/media/Ashwin-Pathak.jpg": "/Sundarkand_Website/static/media/Ashwin-Pathak.cae9519af956aa9497fa.jpg",
-    "static/media/lotus.jpg": "/Sundarkand_Website/static/media/lotus.36b3346fb458f9c3c5a6.jpg",
-    "index.html": "/Sundarkand_Website/index.html",
-    "main.3bb92f42.css.map": "/Sundarkand_Website/static/css/main.3bb92f42.css.map",
-    "main.b8868ff1.js.map": "/Sundarkand_Website/static/js/main.b8868ff1.js.map"
+    "main.css": "./static/css/main.6a2ecd7b.css",
+    "main.js": "./static/js/main.097cd387.js",
+    "static/media/lotus.png": "./static/media/lotus.2bea4b19c7087dd0fecf.png",
+    "static/media/Jay-shree.jpg": "./static/media/Jay-shree.fa0ce7c5965950e33c9c.jpg",
+    "static/media/SundarkandGujarati.pdf": "./static/media/SundarkandGujarati.710ceedeaf78c0fb4a7d.pdf",
+    "static/media/hindi.pdf": "./static/media/hindi.6062421017b974f3a7d4.pdf",
+    "static/media/english.pdf": "./static/media/english.6560e18e4f0b7b5a5877.pdf",
+    "static/media/invite.jpeg": "./static/media/invite.fabc259e29facecd27e6.jpeg",
+    "static/media/hanuman.jpg": "./static/media/hanuman.507f0260919f760ddcdc.jpg",
+    "static/media/Ashwin-Pathak.jpg": "./static/media/Ashwin-Pathak.cae9519af956aa9497fa.jpg",
+    "static/media/lotus.jpg": "./static/media/lotus.36b3346fb458f9c3c5a6.jpg",
+    "index.html": "./index.html",
+    "main.6a2ecd7b.css.map": "./static/css/main.6a2ecd7b.css.map",
+    "main.097cd387.js.map": "./static/js/main.097cd387.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bb92f42.css",
-    "static/js/main.b8868ff1.js"
+    "static/css/main.6a2ecd7b.css",
+    "static/js/main.097cd387.js"
   ]
 }
