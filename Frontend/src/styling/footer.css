@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(0, #401f0f, #83171b);
+    width: 100vw;
+    z-index: 500;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 0 20px;
+    height: 70px;
+    color: white;
+    text-align: center;
+  }
+
+  .footer p {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .header{
+    background-image: linear-gradient(0, #83171b, #401f0f); /* Match the gradient colors of the header */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
