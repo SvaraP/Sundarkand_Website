@@ -20,17 +20,19 @@ const Home = () => {
   }, []);
 
   const scheduleData = [
-    { time: "6:00 PM", event: "Arrival" },
-    { time: "6:30 PM", event: "Dinner" },
-    { time: "7:30 PM", event: "Path Begins" },
-    { time: "8:30 PM", event: "Question Period" },
-    { time: "9:00 PM", event: "Goodbyes" }
+    { time: "5:15 PM", event: "Arrival + Dinner" },
+    { time: "7:00 PM", event: "Dinner Ends" },
+    { time: "7:15 PM", event: "Path Begins" },
+    // { time: "8:30 PM", event: "Question Period" },
+    { time: "9:00 PM", event: "Aarti" }
   ]; 
 
   return (
     <><div>
       {isAtBottom && <Footer />}
-    </div><div className="home-container">
+    </div>
+    
+    <div className="home-container">
         <div className="back-section" style={{ backgroundImage: `url(${lotusImage})` }}>
           <div className="back-content">
             <p className="home-name">Sundarkand Path</p>
@@ -57,6 +59,20 @@ const Home = () => {
                 <li><a href={require("../src/images/SundarkandGujarati.pdf")} target="_blank" rel="noopener noreferrer">View Gujarati PDF</a></li>
                 <li><a href={require("../src/images/hindi.pdf")} target="_blank" rel="noopener noreferrer">View Hindi PDF</a></li>
                 <li><a href={require("../src/images/invite.jpeg")} target="_blank" rel="noopener noreferrer">View Invitation</a></li>
+              </ul>
+            </div>
+            <div className="home-instructions-container">
+              <h2 className="instructions-title">Event Day Reminders</h2>
+              <ul className="instructions-list">
+                <li>Please arrive on time to ensure a smooth flow of events.</li>
+                <li>Parking is available in the lot behind the hall.</li>
+                <li>Wear traditional or respectful attire.</li>
+                <li>Phones should be silenced during the path.</li>
+                <li>Children are welcome under parental supervision at all times. A dedicated hall will be available to reduce disruptions, with the path remaining audible from that space.</li>
+                <li>Please ensure to bring a waterbottle.</li>
+                <li>Feel free to bring your own Sundarkand book from home, if you have one.</li>
+                <li>If you borrow books from Sundarkand Parivar, return them to the front as you exit the hall.</li>
+                
               </ul>
             </div>
           </div>

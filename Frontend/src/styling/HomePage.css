@@ -220,3 +220,30 @@
   color: #83171b;
 
 }
+
+.home-instructions-container {
+
+  margin-top: 8px; /* or even 10px */
+  max-width: 700px;
+  padding: 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.instructions-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #83171b;
+  font-weight: 600;
+}
+
+.instructions-list {
+  text-align: left;
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  font-size: 19.2px;
+  color: #333;
+  line-height: 1.6;
+}
